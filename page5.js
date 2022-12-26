@@ -6,13 +6,13 @@ window.addEventListener("keydown", (e) => {
 });
 
 async function moveUp() {
-    if (page == 0) window.location.replace("result/index.html");
+    if (page == 0) window.location.open("result/index.html");
     page = page + 1;
     window.location.replace("#page"+page.toString());
     if (page == -1) window.location.replace("page4.html");
 }
 async function moveDown() {
-    if (page == 0) window.location.replace("result/index.html");
+    if (page == 0) window.location.open("result/index.html");
     page = page - 1;
     window.location.replace("#page"+page.toString());
     if (page == -1) window.location.replace("page4.html");
