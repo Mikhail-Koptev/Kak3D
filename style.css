@@ -67,3 +67,12 @@ ul {
 h1, p {
     color: white;
 }
+a {
+    color: green;
+    text-decoration: none;
+    background-color: white;
+    font-size: 250%;
+}
+#result {
+    overflow-y: visible;
+}
